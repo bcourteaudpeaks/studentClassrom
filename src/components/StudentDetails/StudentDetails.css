@@ -1,0 +1,15 @@
+.studentDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px 10px;
+}
+
+.studentDetails:not(:last-child){
+    border-bottom:1px solid #F7F7F7;
+}
+
+.studentDetails:hover {
+    background-color: #F7F7F7;
+}
+

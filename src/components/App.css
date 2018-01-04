@@ -1,0 +1,11 @@
+body {
+    font-family: Calibri;
+    background-color: #f0f4f5;
+    margin:0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+    grid-template-rows: 40px auto;
+}
